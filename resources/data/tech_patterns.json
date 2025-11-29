@@ -1,0 +1,10 @@
+{
+    "react": ["react", "react-dom", "jsx", "createElement"],
+    "vue": ["vue", "v-model", "v-for", "v-if"],
+    "angular": ["angular", "ng-", "@angular"],
+    "nodejs": ["require(", "module.exports", "express", "mongoose"],
+    "python": ["def ", "import ", "from ", "class ", "print("],
+    "php": ["<?php", "$_GET", "$_POST", "->"],
+    "jquery": ["jQuery", "$("],
+    "bootstrap": ["bootstrap", "btn-", "col-"]
+}

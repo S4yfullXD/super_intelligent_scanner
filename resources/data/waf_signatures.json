@@ -1,0 +1,7 @@
+{
+  "cloudflare": ["cloudflare", "cf-ray", "__cfduid", "cf-cache-status"],
+  "akamai": ["akamai", "x-akamai-transformed"],
+  "aws_waf": ["aws", "x-amz-cf-id", "x-amz-cf-pop"],
+  "imperva": ["incap_ses", "visid_incap"],
+  "sucuri": ["sucuri/", "x-sucuri-id"]
+}

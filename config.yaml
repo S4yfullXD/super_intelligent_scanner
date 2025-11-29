@@ -1,0 +1,34 @@
+# Super Intelligent Scanner Configuration
+
+scanning:
+  max_workers: 10
+  timeout: 15
+  max_retries: 3
+  rate_limit_delay: 1.0
+
+evasion:
+  rotate_user_agents: true
+  use_proxies: true
+  random_delays: true
+  stealth_mode: true
+
+intelligence:
+  enable_ml: true
+  enable_nlp: true
+  enable_vision: false    # Disable karna opencv berat
+  adaptive_learning: true
+
+resources:
+  auto_download: true
+  update_interval_days: 14
+
+output:
+  organized_saving: true
+  generate_reports: true
+  save_full_content: true
+
+# Dependency management
+dependencies:
+  check_on_startup: true
+  skip_missing: true    # Skip features jika dependencies tidak ada
+  fallback_mode: true   # Gunakan fallback jika advanced features tidak available
